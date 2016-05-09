@@ -1,0 +1,8 @@
+name: qinfer-binder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - qutip
+  - pip:
+    - git+https://github.com/QInfer/python-qinfer.git
