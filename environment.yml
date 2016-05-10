@@ -1,4 +1,4 @@
-name: qinfer-binder
+name: qinfer-examples
 channels:
   - conda-forge
 dependencies:
