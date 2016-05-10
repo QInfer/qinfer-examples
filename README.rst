@@ -1,22 +1,26 @@
 .. image:: http://mybinder.org/badge.svg
     :target: http://mybinder.org/repo/qinfer/qinfer-examples
 
-# QInfer Examples #
+QInfer Examples
+===============
 
 This repository hosts several Jupyter notebooks detailing how to use **QInfer**.
 These examples can be viewed online using
-[nbviewer](http://nbviewer.jupyter.org/github/qinfer/qinfer-examples/tree/master/),
-and can be used interactively online with [binder](http://mybinder.org/repo/qinfer/qinfer-examples).
+`nbviewer <http://nbviewer.jupyter.org/github/qinfer/qinfer-examples/tree/master/>`_,
+and can be used interactively online with `binder <http://mybinder.org/repo/qinfer/qinfer-examples>`_.
 Instructions for running these examples on your own computer are provided below.
 
-# Running Examples #
+Running Examples
+================
 
-## Anaconda Environment ##
+Anaconda Environment
+--------------------
 
 To run the example notebooks provided in this repository, we suggest
-using Python 3 with the [Anaconda distribution](https://www.continuum.io/downloads) for
-Linux and OS X, or Python 2 with Anaconda for Windows. To get started, [download the
-latest notebooks from GitHub](https://github.com/QInfer/qinfer-examples/archive/master.zip),
+using Python 3 with the `Anaconda distribution <https://www.continuum.io/downloads>`_ for
+Linux and OS X, or Python 2 with Anaconda for Windows. To get started,
+`download  <https://github.com/QInfer/qinfer-examples/archive/master.zip>`_
+the latest notebooks from GitHub,
 or clone the repository using Git:
 
 .. code-block:: bash
@@ -36,15 +40,20 @@ Mpltools), use the ``conda`` tool provided with Anaconda.
 
 Next, activate the environment and run Jupyter Notebook.
 
+.. code-block:: bash
+
     $ source activate qinfer-examples
     $ jupyter notebook
 
 When you are done, you can deactivate the new environment, leaving
 your Anaconda configuration unchanged.
 
+.. code-block:: bash
+
     $ source deactivate
 
-## Manual Installation ##
+Manual Installation
+-------------------
 
 The examples provided in this repository demonstrate using **QInfer** with
 other libraries, such as [QuTiP](http://qutip.org), such that these libraries
