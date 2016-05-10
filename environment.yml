@@ -5,6 +5,10 @@ dependencies:
   - python=3.5
   - jupyter
   - matplotlib
-  - qutip
+  - qutip # Needed for tomography
+  - configobj # Needed to read qutiprc files.
+  - pandas # Needed for the simple estimation examples.
   - pip:
+    - mpltools # Needed for Hinton diagrams.
+    # Finally, install QInfer itself.
     - git+https://github.com/QInfer/python-qinfer.git
