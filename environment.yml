@@ -8,6 +8,9 @@ dependencies:
   - qutip # Needed for tomography
   - configobj # Needed to read qutiprc files.
   - pandas # Needed for the simple estimation examples.
+  # Not actually needed, but suppresses superfulous warnings
+  # if we have parallelization support installed.
+  - ipyparallel 
   - pip:
     - mpltools # Needed for Hinton diagrams.
     # Finally, install QInfer itself.
