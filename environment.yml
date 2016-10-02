@@ -11,4 +11,4 @@ dependencies:
   - pip:
     - mpltools # Needed for Hinton diagrams.
     # Finally, install QInfer itself.
-    - git+https://github.com/QInfer/python-qinfer.git
+    - qinfer==1.0
